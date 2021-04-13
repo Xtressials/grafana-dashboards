@@ -1,5 +1,5 @@
 applications:
-- name: developer-dashboards
+- name: grafana-dashboard
   buildpack: binary_buildpack
   memory: 256m
   command: './bin/grafana-server web'
