@@ -1,0 +1,6 @@
+applications:
+- name: developer-dashboards
+  buildpack: binary_buildpack
+  memory: 256m
+  command: './bin/grafana-server web'
+  random-route: false
